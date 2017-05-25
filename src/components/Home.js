@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavigationBar from './Navbar';
+import HealthScreen from './health/HealthScreen';
 import Footer from './Footer';
 
 /*
@@ -10,6 +11,7 @@ export default class Home extends Component {
     return (
       <div>
         <NavigationBar />
+        <HealthScreen />
         <Footer />
       </div>
     );
